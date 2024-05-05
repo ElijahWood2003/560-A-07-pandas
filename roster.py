@@ -7,5 +7,9 @@ roster = {"Bacot", "Davis", "Cadeau"}
 # print(f"{roster}")
 
 # Step 2: Print list using a for loop
-for name in roster:
-    print(f"{name}")
+# for name in roster:
+#     print(f"{name}")
+
+# Step 3: Make dataframe and print
+data = pd.DataFrame(roster)
+print(data)
