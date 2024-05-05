@@ -4,4 +4,8 @@ import pandas as pd
 
 # Step 1: Create list of 3 last names and print
 roster = {"Bacot", "Davis", "Cadeau"}
-print(f"{roster}")
+# print(f"{roster}")
+
+# Step 2: Print list using a for loop
+for name in roster:
+    print(f"{name}")
